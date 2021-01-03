@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table align='center' width='400' frame='border'>
+    <caption>Aplication form</caption>
+    <tr>
+        <td>Full Name</td>
+        <td><input type="text" placeholder="" style="width: 150px"></td>
+    </tr>
+<tr>
+        <td>Email</td>
+    <td><input type="text" placeholder="" style="width: 150px"></td>
+
+</tr>
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="radio" >Male
+            <input type="radio" name="radio" >Female
+        </td>
+    </tr>
+    <tr>
+        <td>Nationality</td>
+        <td>
+            <select name="Nation" style="width: 150px">
+                <option default value="Select">-Select-</option>
+                <option>Ukraine</option>
+                <option>USA</option>
+                <option>France</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">Skills</td>
+                <td>
+                    <input type="checkbox" name="skills" value="ASP.NET">ASP.NET
+                    <input type="checkbox" name="skills" value="JQERY">JQERY
+                </td>
+
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" name="skills" value="MVC">MVC
+            <input type="checkbox" name="skills" value="sql server">Sql server
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2"> Post applying for</td>
+        <td>
+            <input type="radio" name="radio" >Trainee
+            <input type="radio" name="radio" >Software engineer
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <input type="radio" name="radio" >Team leader
+        <input type="radio" name="radio" >Project manager
+        </td>
+    </tr>
+    <tr>
+        <td>Upload resume:</td>
+        <td><input type="file" name="resume" multiple accept=""></td>
+    </tr>
+    <tr>
+        <td>Past your resume</td>
+        <td><textarea></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="checkbox">
+            Notify me the status via Email</td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="radio">
+            I agree to terms & conditions
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit">
+            <input type="reset">
+        </td>
+    </tr>
+
+
+
+
+
+
+
+
+
+
+</table>
+
+
+</body>
+</html>
