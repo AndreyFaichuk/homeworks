@@ -6,15 +6,24 @@ $color_text: #410E54
   overflow-x: hidden
 
 
+.wrapp
+  max-width: 1550px
+  margin: 0 auto
+
 body
   margin: 0
 
 .content
   display: flex
   justify-content: space-around
-  height: 240px
+  flex-wrap: nowrap
+  align-content: center
+  height: 12.4%
+  min-height: 20%
   margin: 0 auto
   max-width: 100%
+  img
+    min-width: 24%
 
   figcaption
     text-align: left
@@ -54,18 +63,19 @@ main
   width: 100%
 
 .text
-  width: 738px
-  height: 247px
+  width: 47.6%
+  max-height: 75.6%
   padding: 0 27px 0 27px
   margin: -3px -30px 31px 30px
   background: $color
+
   p
     font-family: sans-serif
     color: white
     text-align: left
     font-size: 20px
     line-height: 27px
-    padding: 7px
+    padding-top: 5px
 
 .flex
   display: flex
@@ -74,6 +84,8 @@ main
   align-items: center
   & img
     margin-top: 18px
+    max-width: 40%
+    z-index: 1
 
 
 .arrow-left
@@ -169,8 +181,6 @@ main
   width: 100%
 
 
-
-
-
-
+input[type="text"]::-webkit-input-placeholder
+  color: white
 
