@@ -1,0 +1,46 @@
+header {
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+header h1 {
+  font-family: Corbel;
+  margin-bottom: -15px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin: 85px 0 0 0;
+}
+main figure {
+  text-align: center;
+  font-family: Corbel;
+}
+main figure img {
+  width: 100px;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+  background-color: lightseagreen;
+  color: antiquewhite;
+  padding: 15px 32px;
+  border-radius: 4px;
+  margin: 40px 0 0 0;
+  transition: all 0.1s ease 0.1s;
+}
+a:hover {
+  color: black;
+  border-radius: 25px;
+  transition: all 0.1s ease 0.1s;
+}
+
+.qwer {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=class_work.css.map */
