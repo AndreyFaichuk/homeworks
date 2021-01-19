@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+
+
+       div{
+           width: 100px;
+           height: 100px;
+           border: 1px solid black;
+           margin: 5%;
+       }
+       div:hover:nth-child(1){
+           transform-origin:left bottom;
+           transform: rotate(-40deg);
+
+       }
+       div:hover:nth-child(2){
+           transform: rotate(40deg);
+       }
+        div:hover:nth-child(3){
+            transform-origin:right bottom;
+            transform: rotate(-40deg);
+        }
+        div:hover:nth-child(4){
+            transform-origin: right bottom;
+            transform: scale(1.5)
+        }
+        div:hover:nth-child(5){
+            transform-origin: right bottom;
+            transform: skew(25deg, 15deg);
+        }
+    </style>
+</head>
+
+<body>
+
+
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+
+
+</body>
+</html>
